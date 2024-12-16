@@ -145,17 +145,31 @@
             <div class="mb-4">
               <h3>Critter Auto-Battler</h3>
               <p>
-               My partner, Lucca Sebastiani, and I were inspired by the simplicity of an auto-battler, with the added complexity of type advantages/disadvantages from Pokémon.
-               We wanted to see what would come from a combination of the two concepts, while trying to stay true to our inspirations.
+                We wanted to combine two of our favorite games: pokemon and super auto pets! My project partner and I are both avid fans of the pokemon game series, 
+                and we were inspired by the simple yet strategic gameplay of colission based auto battlers to combine that with some of our favorite games!
               </p>
               <p>
-              Functional requirements/what the project does
+                This project combines the typed battling of pokemon with the easy to play fun of super auto pets! 
+                The game uses critter objects that attack each other and have 3 different statistics: 
+                health, attack, and type. Our game uses pokemon-inspired type effectiveness to create an immersive, strategic experience!
               </p>
               <p>
-              Project design
+                Key features of this project: 
+                <br />
+                <b>Critter</b> class with health, attack, and type. <br />
+                <b>Item</b> class with temporary attack and armor to augment the critters. <br />
+                <b>Team composition:</b> teams are made up of 3 critters that can hold a maximum of 1 item to augment their stats. <br />
+                <b>Gameplay:</b> we used a collide method that had the two leading critters attack one another until all critters are defeated 
+
               </p>
               <p>
-              Implementation
+                <b>Implementation:</b> To implement this game, we used a state machine for each phase of the game. <br />
+                <b>Naming:</b> Each player enters their name for the game. <br />
+                <b>Setup:</b> Players pick their team and items from a list of randomly generated critters and items, adding variability for each round. <br /> 
+                <b>Team Preparation:</b> Each player assigns items to their Critters and can switch their order if they desire. <br />
+                <b>Battle:</b> Each players' teams collide until one team is defeated. Whoever's team is left standing wins the round! First to 5 points wins! <br />
+                <b>Game Over:</b> This phase is reached once a winner is decided, and displays a victory message for the winner and closes the game. <br />
+
               </p>
 
 
