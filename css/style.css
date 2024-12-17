@@ -8,18 +8,10 @@ body {
   font-weight: 400;
   font-size: 1rem; }
 
-  .custom-image-wrap {
-    position: relative;
-    width: 350px; 
-    height: 300px; 
-    overflow: hidden; 
-  }
-  
-  .custom-image-wrap img {
-    position: absolute;
-    width: 400px; 
-    height: auto;
-  }
+.col-lg-6 img {
+  width: 400px;
+  height: auto;
+}
 
 ::-moz-selection {
   background: #000;
