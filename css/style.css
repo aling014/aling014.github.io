@@ -8,11 +8,20 @@ body {
   font-weight: 400;
   font-size: 1rem; }
 
-.col-lg-6 img {
-  width: 300px;
-  height: auto;
-  overflow: hidden;
-}
+  .col-lg-6 {
+    position: relative;
+    width: 350px; 
+    height: 300px; 
+    overflow: hidden; 
+  }
+  
+  .col-lg-6 img {
+    position: absolute;
+    top: -50px; 
+    left: -30px; 
+    width: 400px; 
+    height: auto;
+  }
 
 ::-moz-selection {
   background: #000;
