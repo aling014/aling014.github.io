@@ -183,13 +183,68 @@
                 By integrating concepts like dependency management, code reusability, and structured workflows, 
                 I gained valuable hands-on experience that reflects real-world development processes.
               </p>
-
-
             </div>
-
-            
-
           </div>
+          
+          <!-- New project entry -->
+        <div class="row">
+          <div class="col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="">
+            <img src="images/adversys_logo.webp" alt="Image of your project" class="img-fluid">
+          </div>
+          <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
+            <div class="mb-4">
+              <h2>Adversys</h2>
+                <section id="motivation">
+                  <h3>Motivation</h3>
+                  <p>
+                    Modern development environments are increasingly AI-augmented, yet most security tooling remains reactive and external to the developer workflow. Adversys embeds offensive security testing directly into the IDE, enabling continuous assessment of web, API, and AI-integrated applications against OWASP-aligned risk categories. The goal is to shift security left and treat AI-driven systems as first-class attack surfaces.
+                  </p>
+                </section>
+
+                <section id="functional-requirements">
+                  <h3>Functional Requirements</h3>
+                  <ul>
+                    <li>Integrated IDE sidebar chat for launching security agents</li>
+                    <li>Command palette actions to execute OWASP web, API, and AI test suites</li>
+                    <li>Automated execution of predefined and agent-generated attack scenarios</li>
+                    <li>Structured vulnerability reporting with OWASP category mapping</li>
+                    <li>Support for iterative, agent-driven endpoint probing</li>
+                  </ul>
+                  <p>
+                    Developers can execute individual tests or full OWASP-aligned suites with results surfaced directly inside the IDE.
+                  </p>
+                </section>
+
+                <section id="design">
+                  <h3>Project Design</h3>
+                  <ul>
+                    <li><strong>IDE Extension Layer:</strong> UI components, command orchestration, and result display</li>
+                    <li><strong>Agent Layer:</strong> Encapsulated security testing logic aligned to OWASP categories</li>
+                    <li><strong>Execution Layer:</strong> Payload generation, HTTP/API interaction, and response analysis</li>
+                    <li><strong>Result Processing Layer:</strong> Normalization and structured vulnerability reporting</li>
+                  </ul>
+                  <p>
+                    The architecture is modular and extensible, allowing new attack strategies and risk categories to be integrated without modifying core orchestration logic.
+                  </p>
+                </section>
+
+                <section id="implementation">
+                  <h3>Implementation</h3>
+                  <p>
+                    Adversys is implemented as a VS Code–based extension using TypeScript for IDE integration and modular backend components for test execution.
+                  </p>
+                  <ul>
+                    <li>Command registration via the VS Code Extension API</li>
+                    <li>Webview-based sidebar for interactive test orchestration</li>
+                    <li>Structured prompt engineering for agent-driven testing</li>
+                    <li>Deterministic execution pipelines for reproducible results</li>
+                    <li>Standardized vulnerability mapping to OWASP Web, API, and AI risk categories</li>
+                  </ul>
+                </section>
+            </div>
+          </div>
+        </div>
+      </div>
         </div>
       </div>
       
